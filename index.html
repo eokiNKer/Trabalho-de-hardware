@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show do Milhão - Jogo de Solução de Problemas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Show do Milhão - Soluções de Problemas</h1>
+
+        <!-- Pergunta e Opções -->
+        <div id="question-container">
+            <div id="question">
+                <p><strong>Sintoma:</strong> Computador desliga sozinho durante o uso.</p>
+                <p>Qual é a melhor solução?</p>
+                <div class="options">
+                    <button onclick="checkAnswer('A')">A) Atualizar o antivírus</button>
+                    <button onclick="checkAnswer('B')">B) Trocar o processador</button>
+                    <button onclick="checkAnswer('C')">C) Reinstalar o Sistema Operacional</button>
+                    <button onclick="checkAnswer('D')">D) Reiniciar a rede</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vidas -->
+        <div id="lives-container">
+            <p>Vidas:</p>
+            <div id="lives">
+                <span class="heart" id="heart1">❤️</span>
+                <span class="heart" id="heart2">❤️</span>
+                <span class="heart" id="heart3">❤️</span>
+                <span class="heart" id="heart4">❤️</span>
+                <span class="heart" id="heart5">❤️</span>
+            </div>
+        </div>
+
+        <!-- Pontuação -->
+        <div id="score-container">
+            <p id="score">Pontuação: 0</p>
+        </div>
+
+        <!-- Resultado -->
+        <div id="result"></div>
+
+        <!-- Botão de Reinício -->
+        <button id="restart-button" onclick="restartGame()" style="display: none;">Reiniciar o Jogo</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

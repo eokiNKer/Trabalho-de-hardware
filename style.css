@@ -1,0 +1,85 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-top: 20px;
+}
+
+#game-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Pergunta e opções */
+#question-container {
+    margin-bottom: 20px;
+}
+
+.options button {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 18px;
+    margin: 10px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.options button:hover {
+    background-color: #0056b3;
+}
+
+/* Vidas */
+#lives-container {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#lives .heart {
+    font-size: 30px;
+}
+
+/* Pontuação */
+#score-container {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Resultado */
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Botão de Reinício */
+#restart-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+#restart-button:hover {
+    background-color: #218838;
+}
